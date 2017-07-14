@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "webpack src/index.js dist/bundle.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.3.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
     "webpack": "^3.1.0"
   },
   "dependencies": {
